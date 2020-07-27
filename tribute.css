@@ -1,18 +1,19 @@
+/*Main body of the doument */
 body{
   margin-top:0%;
   margin-bottom:0%
 }
-
+/* Formatting for the Main id add light blue to the background and positioning*/
 #main{ 
   width:85%;
   background-color:lightblue;
   margin-left:auto;
   margin-right:auto;
-  padding:0%;
+  padding:0;
   border:solid;
   border-width:1px;
 }
-
+/* Formatting for the Title of the page giving it a white background and some text formatting */
 #title{
   width:75%;
   Background-color:white;
@@ -30,7 +31,7 @@ body{
   margin-bottom:5%;
   
 }
-
+/* Formatting for the image div placed in a div yellow background and visible borders */
 #img-div{
   width:75%;
   background-color:yellow;
@@ -38,11 +39,9 @@ body{
   border-width:1px;
   margin-left:auto;
   margin-right:auto;
-  margin-bottom:5%;
-  
-  
+  margin-bottom:5%; 
 }
-
+/* Formatting for the image itself */
 #image{
   display:block;
   margin-left:auto;
@@ -53,9 +52,8 @@ body{
   max-width:100%;
   width:75%;
   padding:5%;
-  
 }
-
+/* Formatting for the image caption */
 #img-caption{
   font-family:Verdana;
   font-weight:bold;
@@ -63,30 +61,16 @@ body{
   text-transform:uppercase;
   padding: 2%;
 }
-
+/* Formatting for the text of the body of the article */
 #tribute-info{
   width:75%;
   font-family:arial;
   font-size:16px;
   margin-left:auto;
   margin-right:auto;
-  letter-spacing:2px;
-  
+  letter-spacing:2px;  
 }
-p{
-  padding:1%;
-}
-
-footer{
-  text-align:center;
-  background-color:slategray;
-  max-width:100%;
-  margin: 0px;
-  border:solid;
-  border-width:1px;
-  padding:5%;
-}
-
+/* Formatting for text in the footer of the article */
 #footer-text{
   color:white;
   font-family: arial;
@@ -97,3 +81,16 @@ footer{
   padding:5%;
   margin:10px;
 }
+p{
+  padding:1%;
+}
+footer{
+  text-align:center;
+  background-color:slategray;
+  max-width:100%;
+  margin: 0;
+  border:solid;
+  border-width:1px;
+  padding:5%;
+}
+
