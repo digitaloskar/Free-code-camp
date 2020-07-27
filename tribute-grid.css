@@ -1,0 +1,49 @@
+
+/* Main container trying to create a grid which is 5 cols and 7rows */
+.container {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 50px 50px auto 50px 50px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+  }
+  /* Collective cell properties font sizes alignment and padding*/
+  .cell {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding: 4rem;
+  }
+  /* Individual cell properties at the moment just colour. I did 
+  try to adjust sizees and have a cell span across rows but it didn't 
+  work so I paired it back to start again */
+  .cell-1 {
+    background: deepskyblue; 
+  }
+  .cell-2 {
+    background: orangered;
+  }
+  .cell-3 {
+    background: royalblue;  
+  }
+  .cell-4 {
+    background: gold; 
+  }
+  .cell-5 {
+    background: blueviolet; 
+  }
+  .cell-6 {
+    background: limegreen;
+  }
+  .cell-7 {
+    background: coral; 
+  }
+  .cell-8 {
+    background: lightseagreen;
+  }
+  .cell-9 {
+    background: maroon;
+  }
+  .cell-10 {
+    background: lightskyblue;
+  }
